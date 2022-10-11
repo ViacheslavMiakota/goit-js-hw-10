@@ -1,9 +1,4 @@
 export function createMarkup({ name, capital, population, flags, languages }) {
-  console.log(name.official);
-  console.log(capital);
-  console.log(population);
-  console.log(flags.svg);
-  console.log(languages);
   const langStr = Object.values(languages).join(', ');
   return `<div class="countries__card">
     <h2 class="countries-name">${name.official}</h2>
